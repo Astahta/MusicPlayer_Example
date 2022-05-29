@@ -17,14 +17,8 @@ class ApiBaseHelper {
   }
 
   static Dio addInterceptors(Dio dio) {
-    return dio
-      ..interceptors.add(
-        InterceptorsWrapper(
-            onRequest: (RequestOptions options) => requestInterceptor(options),
-            onError: (DioError e) async {
-              return e.response.data;
-            }),
-      );
+    return dio;
+
   }
 
   static dynamic requestInterceptor(RequestOptions options) async {
