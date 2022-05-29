@@ -15,7 +15,7 @@ a simple music player app for android using flutter. This app can be used to fin
 - [Flutter 2.5.2](https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_2.5.2-stable.zip)
 - [Dart 2.14.3](https://storage.googleapis.com/dart-archive/channels/stable/release/2.14.3/sdk/dartsdk-windows-x64-release.zip)
 - [fluttertoast: ^8.0.9](https://pub.dev/packages/fluttertoast)
-- [dio: ^3.0.10](https://pub.dev/packages/dio)
+- [dio: ^4.0.0](https://pub.dev/packages/dio)
 - [audioplayers: ^0.18.3](https://pub.dev/packages/audioplayer)
 
 ## Instructions to build and deploy the app
@@ -32,3 +32,8 @@ for runing the project
 
 for deploy using Android Studio
 - Build > Flutter > Build APK
+
+The result (build APK):
+> build\app\outputs\flutter-apk\app-release.apk
+
+
